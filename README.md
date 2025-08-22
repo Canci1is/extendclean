@@ -10,7 +10,7 @@ build:
 
 for the migrate, bot, api, and dashboard containers in your respective docker-compose (standalone/lightweight). Make sure to run the below command every time you update/change the source code.
 
-Next, go to fetchmessagestoclean.ts and change the MAX_CLEAN_AMOUNT ans MAX_CLEAN_TIME to any amount you want (Max clean time has to be 14=<)
+Next, go to fetchmessagestoclean.ts and change the MAX_CLEAN_AMOUNT ans MAX_CLEAN_TIME to any amount you want (Max clean time has to be 14 or down) (If you didn't change anything related to fetching kore than 2000, max clean amount has to be 2000 or down)
 
 If you filled in the Standalone section in the env file:
 docker compose -f docker-compose.standalone.yml up -d --build

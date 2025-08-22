@@ -1,2 +1,2 @@
 # extendclean
-Extend zeppelin bot’s clean command to max 14 days, and max any msg length, until to 2000 (can do more)
+Here is hiw to extend zeppelin bot's cleaning! First, we need to make sure you are building your own code. to do this, go to docker-compose.standalone.yaml and see the 
